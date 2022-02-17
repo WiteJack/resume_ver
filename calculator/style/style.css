@@ -1,0 +1,45 @@
+*{
+    font-family: 'Gilroy', sans-serif;
+    transition: .3s all;
+    font-weight: 600;
+}
+#app{
+    max-width: 20em;
+    box-shadow: 0 .1em .3em grey;
+}
+input[type="text"]{
+    max-width: 10em;
+    border: 0;
+    box-shadow: 0 0 .1em orange;
+    color: #243849;
+    font-size: 2em;
+    padding: 5px 5px;
+    text-align: right;
+}
+input[type="text"]:hover{
+    box-shadow: 0 0 .1em orange, inset 0 0 .1em tomato;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 20em;
+}
+.cell{
+    flex: 33.3%;
+    height: 2em;
+    font-size: 2em;
+    border: none;
+}
+.num{
+    background-color: #243849;
+    color: #fff;
+    font-weight: 400;
+}
+.cell:hover{
+    background-color: #183;
+}
+.op{
+    background-color: orange;
+    color: #243849;
+}

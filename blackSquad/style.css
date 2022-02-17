@@ -138,7 +138,7 @@ header {
 
 .containerGame {
     height: 500px;
-    background-image: url(img/01_GAME.jpg);
+    background-image: url(image/01_GAME.jpg);
     min-width: 100%;
 }
 
@@ -152,7 +152,7 @@ header {
 
 /*Game Container*/
 .CG2 {
-    background-image: url(img/02_GAME.jpg);
+    background-image: url(image/02_GAME.jpg);
     min-width: 100%;
     margin-top: 10%;
     text-align: center;
@@ -201,14 +201,14 @@ header {
 }
 
 .Requirements p::before {
-    content: url(img/gameicon.png);
+    content: url(image/gameicon.png);
     padding-right: 10px;
     color: lightcoral;
     text-shadow: 1px 1px 1px grey
 }
 
 .Requirements p::before {
-    content: url(img/gameicon.png);
+    content: url(image/gameicon.png);
     padding-right: 10px;
     color: lightcoral;
     text-shadow: 1px 1px 1px grey
@@ -308,7 +308,7 @@ li {
     border: 3px solid rgb(0, 132, 255);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("img/facebook.png");
+    background-image: url("image/facebook.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -317,6 +317,7 @@ li {
     -o-filter: grayscale(50%);
     filter: grayscale(50%);
     transition-duration: .9s;
+   
 }
 
 .fb:hover {
@@ -335,7 +336,7 @@ li {
     border: 3px solid rgb(0, 174, 255);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("/img/twitter.png");
+    background-image: url("image/twitter.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -362,7 +363,7 @@ li {
     border: 3px solid rgb(255, 72, 0);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("img/yt.png");
+    background-image: url("image/yt.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -389,7 +390,7 @@ li {
     border: 3px solid rgb(82, 82, 82);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("img/steam.png");
+    background-image: url("image/steam.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -416,7 +417,7 @@ li {
     border: 3px solid rgb(154, 1, 185);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("img/tw.png");
+    background-image: url("image/tw.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -443,7 +444,7 @@ li {
     border: 3px solid rgb(111, 49, 255);
     padding: 5em;
     border-radius: 50%;
-    background-image: url("img/dis.png");
+    background-image: url("image/dis.png");
     background-repeat: no-repeat;
     background-position: center;
     -webkit-filter: grayscale(50%);
@@ -468,7 +469,7 @@ li {
 /* News Container */
 .fontNews {
     background-color: #eee;
-    background-image: url(img/01_NEWS.jpg);
+    background-image: url(image/01_NEWS.jpg);
     background-repeat: no-repeat;
     min-width: 100%;
 }
@@ -552,7 +553,7 @@ li {
 /*Container Community */
 .containerCom {
     background-color: #eee;
-    background-image: url(img/01_COMMUNITY.jpg);
+    background-image: url(image/01_COMMUNITY.jpg);
     background-repeat: no-repeat;
     min-width: 100%;
 }
@@ -646,7 +647,7 @@ li {
 
 .containerFaq::before {
     content: "";
-    background-image: url(img/01_faq.jpg);
+    background-image: url(image/01_faq.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
